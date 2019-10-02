@@ -1,0 +1,28 @@
+{
+    "name": "bhrandon/phptips001",
+    "description": "Conhecendo o composer e configurando IDE| PHP Tips #001",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bhrandon borges",
+            "email": "bhrandonbmt@gmail.com",
+            "role":  "Developer",
+            "homepage": "http://uniaogeek.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
