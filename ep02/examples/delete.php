@@ -9,9 +9,9 @@ $user = (new User())->findById(6);
 if($user)
 {
     $user->destroy();
-    echo "registro deletado com sucesso!";
+    echo "Registro deletado com sucesso!";
 } else
 {
-    var_dump($user);
+    echo "Ocorreu um erro ao deletar o registro!";
 }
 
