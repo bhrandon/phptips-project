@@ -1,0 +1,25 @@
+{
+    "name": "bhrandon/ep02",
+    "description": "Abstração de banco de dados com Data Layer | PHP Tips #002",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhrandon B.",
+            "email": "bhrandonbmt@gmail.com",
+            "role":  "Developer",
+            "homepage": "http://uniaogeek.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/datalayer": "1.1.*"
+    }
+}
